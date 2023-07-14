@@ -3,7 +3,7 @@ This is the PyTorch implementation of GIGN
 
 Yi Ding, Cuntai Guan, “GIGN: Learning Graph-in-graph Representations of EEG Signals for Continuous Emotion Recognition”, in EMBC, 2023 (Accepted).
 
-More introduction of how to use the code will be provided soon...
+More introduction about how to use the code will be provided soon...
 # Cite
 Please cite our paper if you use our code in your own work:
 
