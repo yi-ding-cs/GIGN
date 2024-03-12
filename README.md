@@ -18,7 +18,7 @@ Step 5: Using generate_results_csv.py to get the summarized results.
 ```python
 from model.GiG import GiG
 
-data = torch.randn(1, 1, 192, 96)  # (batch_size=1, cnn_channel=1, EEG_channel*feature=32*6, data_sequence=96)
+data = torch.randn(1, 96, 32, 6)  # (batch_size=1, data_sequence=96, EEG_channel=32, feature=6)
 
 # For regression, the output is (batch_size, data_sequence, 1).
 net = GiG(
