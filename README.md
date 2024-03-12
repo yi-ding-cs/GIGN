@@ -22,15 +22,15 @@ data = torch.randn(1, 1, 192, 96)  # (batch_size=1, cnn_channel=1, EEG_channel*f
 
 # For regression, the output is (batch_size, data_sequence, 1).
 net = GiG(
-          layers_graph=[1, 2],
-          num_chan=62,
+          layers_graph=[2, 2],
+          num_chan=32,
           num_seq=96,
-          num_feature=5,
-          hidden_graph=64,
-          K=[2, 4],
-          dropout=0.25,
+          num_feature=6,
+          hidden_graph=128,
+          K=[3, 4],
+          dropout=0.5,
           num_class=1,
-          encoder_type='GCN'
+          encoder_type='Cheby'
           )
 preds = net(data)
 ```
