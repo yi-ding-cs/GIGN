@@ -5,9 +5,13 @@ This is the PyTorch implementation of GIGN for continuse emotion recognition usi
 
 # Run the code
 Setp 1: You need to check the config.py first, changing the parameters accordingly.
+
 Step 2: Run generate_dataset.py.
+
 Step 3: Check the parameters in the main.py, changing them accordingly.
+
 Step 4: Run main.py to train and evaluate the network.
+
 Step 5: Using generate_results_csv.py to get the summarized results.
 
 ## Example of using GIGN
