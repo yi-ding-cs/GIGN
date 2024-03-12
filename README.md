@@ -8,7 +8,7 @@ Download MAHNOB-HCI dataset [here](https://mahnob-db.eu/hci-tagging/). And set t
 
 Get the continuous label in this [repo](https://github.com/soheilrayatdoost/ContinuousEmotionDetection). Put the lable_continous_Mahnob.mat at the data folder, e.g., /home/dingyi/MAHNOB/lable_continous_Mahnob.mat
 
-Note that it might pop some error messages when you load create the dataset. It is because there are some format errors in the original data. You can identify the file according to the error message and correct the format error in that file. 
+Note that it might pop some error messages when you create the dataset by using generate_dataset.py. It is because there are some format errors in the original data. You can identify the file according to the error message and correct the format error in that file. 
 
 # Run the code
 Setp 1: You need to check the config.py first, changing the parameters accordingly.
