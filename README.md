@@ -33,7 +33,7 @@ net = GiG(
           encoder_type='GCN'
           )
 preds = net(data)
-
+```
 # Cite
 Please cite our paper if you use our code in your own work:
 
