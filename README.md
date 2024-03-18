@@ -1,5 +1,5 @@
 # GIGN
-This is the PyTorch implementation of GIGN for continuse emotion recognition using MAHNOB-HCI dataset
+[EMBC-23]This is the PyTorch implementation of GIGN for continuse emotion recognition using MAHNOB-HCI dataset
 
 [Yi Ding, Cuntai Guan, “GIGN: Learning Graph-in-graph Representations of EEG Signals for Continuous Emotion Recognition”, in EMBC, 2023 (Oral)](https://ieeexplore.ieee.org/document/10340644).
 
