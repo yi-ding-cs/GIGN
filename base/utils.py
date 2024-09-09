@@ -59,3 +59,18 @@ def ensure_dir(file_path):
 
 def sigmoid(x):
   return 1 / (1 + np.exp(-x))
+
+def roll_list(arrays, shift):
+    """Roll a list of numpy arrays by a specified shift amount.
+
+    Parameters:
+    arrays (list of np.ndarray): The list of numpy arrays to be rolled.
+    shift (int): The number of positions by which to shift the list.
+
+    Returns:
+    list of np.ndarray: The rolled list of numpy arrays.
+    """
+    # Calculate the effective shift
+    shift %= len(arrays)
+    # Roll the list
+    return arrays[shift:] + arrays[:shift]
