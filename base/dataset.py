@@ -7,6 +7,7 @@ import random
 from torchvision.transforms import transforms
 import torchvision
 from torch.utils.data import Dataset
+from base.utils import roll_list
 
 
 class GroupNormalize(object):
