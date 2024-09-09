@@ -258,7 +258,7 @@ class DataArranger(object):
 
     def generate_partitioned_trial_list(self, window_length, hop_length, fold, windowing=True):
 
-        partition_range = list(np.roll(self.partition_range, fold))
+        partition_range = list(roll_list(self.partition_range, fold))
         partitioned_trial = {}
 
         trial_list = self.trial_list
